@@ -1,0 +1,33 @@
+.contacts {
+  background-color: var(--dark-bg-color);
+}
+
+.contacts__container {
+  display: flex;
+}
+
+.contacts__left-side {
+  padding: 0 40px;
+}
+
+.contacts__right-side {
+  padding: 0 100px;
+}
+
+.contacts-group__link {
+  font-style: normal;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-light-color);
+}
+
+.contacts-group__item {
+  margin-bottom: 20px;
+}
+
+.address-icon {
+  fill: var(--secondary-light-color);
+}

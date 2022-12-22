@@ -1,0 +1,186 @@
+// logo
+
+// navigation
+.navigation__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: var(--primary-dark-color);
+}
+
+.hero__title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80 / 64);
+
+  color: var(--primary-dark-color);
+
+  margin-bottom: 40px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: calc(45 / 30);
+
+  color: var(--primary-dark-color);
+}
+
+.title--section {
+  font-size: 48px;
+  line-height: calc(72 / 48);
+}
+
+.title--center {
+  display: flex;
+  justify-content: center;
+}
+
+.dscr {
+  color: var(--primary-text-color);
+  margin-bottom: 30px;
+}
+
+.hero__dscr {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+
+  margin-bottom: 60px;
+}
+
+.skills__dscr {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+.about__dscr {
+  font-size: 20px;
+  line-height: calc(36 / 20);
+}
+
+// .hero-title {
+//   font-family: var(--secondary-font);
+//   font-size: 72px;
+//   line-height: calc(85 / 72);
+//   letter-spacing: 0.05em;
+//   color: var(--primary-light-color);
+// }
+
+// // можно было section-title
+// .general-title {
+//   font-family: var(--secondary-font);
+//   font-size: 42px;
+//   line-height: calc(49 / 42);
+//   letter-spacing: 0.05em;
+// }
+
+// .general-title--dark {
+//   margin-bottom: 20px;
+//   color: var(--primary-dark-color);
+// }
+
+// .general-title--light {
+//   margin-bottom: 44px;
+//   color: var(--primary-light-color);
+// }
+
+// .general-uppertitle {
+//   margin-bottom: 20px;
+
+//   font-weight: 600;
+//   font-size: 11px;
+//   line-height: 1.4;
+//   letter-spacing: 0.1em;
+//   text-transform: uppercase;
+// }
+
+// .general-uppertitle--dark {
+//   color: var(--primary-dark-color);
+// }
+
+// .general-uppertitle--light {
+//   color: var(--secondary-light-color);
+// }
+
+// .general-dscr {
+//   margin-bottom: 20px;
+
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 30px;
+//   letter-spacing: 0.02em;
+// }
+
+// .general-dscr--dark {
+//   color: var(--secondary-dark-color);
+// }
+
+// .general-dscr--light {
+//   color: var(--secondary-light-color);
+// }
+
+// .general-text {
+//   margin-bottom: 40px;
+
+//   font-size: 14px;
+//   line-height: 1.86;
+//   letter-spacing: 0.02em;
+//   color: var(--secondary-dark-color);
+// }
+
+// .price__inner-item {
+//   font-size: 18px;
+//   line-height: 1.7;
+//   letter-spacing: 0.02em;
+
+//   color: var(--secondary-light-color);
+// }
+
+// // benefits block
+// .benefits__quantity {
+//   font-weight: 700;
+//   font-size: 42px;
+//   line-height: 1.4;
+//   text-align: center;
+//   letter-spacing: 0.05em;
+//   color: var(--primary-dark-color);
+// }
+
+// .benefits__description {
+//   font-weight: 600;
+//   font-size: 11px;
+//   line-height: 1.4;
+//   text-align: center;
+//   color: var(--primary-dark-color);
+// }
+
+// .benefits__plus {
+//   font-weight: 600;
+//   font-size: 16px;
+//   line-height: 1.4;
+//   text-align: center;
+//   color: var(--primary-accent-color);
+// }
+
+// // barbers block
+// .barbers__name {
+//   margin-bottom: 8px;
+
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 1.4;
+//   text-align: center;
+//   letter-spacing: 0.02em;
+//   color: var(--primary-dark-color);
+// }
+
+// .barbers__description {
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.4;
+
+//   text-align: center;
+//   letter-spacing: 0.02em;
+//   color: var(--primary-accent-color);
+// }

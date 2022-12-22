@@ -1,0 +1,26 @@
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.container {
+  // display: flex;
+  width: 1338px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  // Оутлайн - убрать
+  outline: 1px lightblue solid;
+}
+
+.hero {
+  padding-bottom: 90px;
+}
+
+.hero__container {
+  display: flex;
+}
+
+.left-side {
+  width: 540px;
+}

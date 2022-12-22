@@ -1,0 +1,21 @@
+// social media (2) barbershop
+
+.sm__link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+
+  cursor: pointer;
+
+  color: var(--primary-dark-color);
+}
+
+.sm__link:hover,
+.sm__link:focus {
+  color: var(--primary-accent-color);
+}
+
+.sm-list {
+  display: flex;
+}

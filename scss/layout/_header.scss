@@ -1,0 +1,30 @@
+.header {
+  padding: 55px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--primary-dark-color);
+
+  margin-right: auto;
+}
+
+.logo--grey {
+  color: rgba(147, 147, 147, 1);
+}
+
+.navigation {
+  display: flex;
+  margin-right: 121px;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 50px;
+}

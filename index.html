@@ -5,59 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BritLex</title>
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header class="header">
-      <nav class="navigation">
-        <a href="./index.html">Brit<span>lex</span> </a>
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Home</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Skills</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">About Us</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Pricing</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="general-button" type="button">Let&#39;s Talk</button>
 
-      <!-- ver. 12.12.7:50 -->
+    <!-- fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
+
+    <!-- modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <!--
+  |==============================
+  | BODY
+  |==============================
+-->
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="logo"
+          >Brit<span class="logo--grey">lex</span>
+        </a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">About Us</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Pricing</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn" type="button">Let&#39;s Talk</button>
+      </div>
     </header>
 
     <main>
-      <!-- Hero section -->
+      <!--
+        |==============================
+        | HERO SECTION
+        |==============================
+      -->
       <section class="hero">
-        <h1 class="hero__title">Learn Any Foreign Language</h1>
-        <p class="general-desc">
-          With our teachers who write a program for each student, you will be
-          able to make your first sketch after the first lesson.
-        </p>
-        <button class="general-button" type="button"></button>
-        <img
-          class="hero__image"
-          src="./images/hero/bulb-icon.png"
-          alt=""
-          width="120"
-          height="120"
-        />
-        <img
-          class="hero__image"
-          src="./images/hero/learning-languages.png"
-          alt=""
-          width="654"
-          height="510"
-        />
+        <div class="container hero__container">
+          <!-- hero - left - side -->
+          <div class="left-side">
+            <h1 class="hero__title">
+              Learn<br />
+              Any Foreign<br />
+              Language
+            </h1>
+
+            <p class="dscr hero__dscr">
+              With our teachers who write a program for each student, you will
+              be able to make your first sketch after the first lesson.
+            </p>
+
+            <button class="btn btn--dark btn--big" type="button">
+              Get started
+            </button>
+
+            <img
+              class="hero__image"
+              src="./images/hero/bulb-icon.png"
+              alt=""
+              width="120"
+              height="120"
+            />
+          </div>
+
+          <!-- hero - right - side -->
+          <div class="right-side">
+            <img
+              class="hero__image"
+              src="./images/hero/learning-languages.png"
+              alt=""
+              width="654"
+              height="510"
+            />
+          </div>
+        </div>
       </section>
+
+      <!--
+  |==============================
+  | SKILLS SECTION
+  |==============================
+-->
+
+      <section class="skills section">
+        <div class="container">
+          <h2 class="title title--section title--center">Skills</h2>
+
+          <ul class="skills__list">
+            <!-- speakig -->
+            <li class="skills__item">
+              <img
+                src="./images/skills/skills-speaking.png"
+                alt=""
+                class="skills__img"
+              />
+              <h3 class="title">Speaking</h3>
+              <p class="dscr skills__dscr">
+                Improve your English skills and confidence. Live classes and
+                interactive lessons online. 20% extra free for a limited time
+                only Learn English online and improve your skills through our
+                high-quality courses and resources – all designed for adult
+                language learners.
+              </p>
+              <button class="btn btn--dark btn--sm">Learn more</button>
+            </li>
+            <!-- writing -->
+            <li class="skills__item">
+              <img
+                src="./images/skills/skills-writing.png"
+                alt=""
+                class="skills__img"
+              />
+              <h3 class="title">Writing</h3>
+              <p class="dscr skills__dscr">
+                One of the most important and extensive areas of natural
+                science, the science that studies substances, also their
+                composition
+              </p>
+              <button class="btn btn--dark btn--sm">Learn more</button>
+            </li>
+
+            <!-- reading -->
+            <li class="skills__item">
+              <img
+                src="./images/skills/skills-reading.png"
+                alt=""
+                class="skills__img"
+              />
+              <h3 class="title">Reading</h3>
+              <p class="dscr skills__dscr">
+                Perception and response actions of the user resulting from the
+                use and/or upcoming use of the product, system or service
+              </p>
+              <button class="btn btn--dark btn--sm">Learn more</button>
+            </li>
+
+            <!-- listening -->
+            <li class="skills__item">
+              <img
+                src="./images/skills/skills-listening.png"
+                alt=""
+                class="skills__img"
+              />
+              <h3 class="title">Listening</h3>
+              <p class="dscr skills__dscr">
+                Here you can find activities to practise your listening skills.
+                Listening will help you to improve your understanding
+              </p>
+              <button class="btn btn--dark btn--sm">Learn more</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+        <!--
+  |==============================
+  | ABOUT US SECTION
+  |==============================
+-->
+
+      <section class="about section">
+        <div class="container">
+          <h2 class="title title--section ">About Us</h2>
+          <p class="dscr about__dscr">The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.</p>
     </main>
   </body>
 </html>

@@ -1,0 +1,56 @@
+// MAIN - BTN
+
+.btn {
+  /* Позиционирование */
+
+  /* Блочная модель */
+  padding: 20px 56px;
+
+  min-width: 312px;
+  min-height: 70px;
+
+  /* Типографика */
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Отображение */
+  background-color: transparent;
+  border: 2px solid var(--secondary-dark-color);
+  border-radius: 10px;
+
+  /* Прочее */
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--primary-dark-color);
+  background-color: var(--primary-background-color);
+}
+
+.btn--dark {
+  color: rgba(255, 255, 255, 1);
+  background-color: var(--secondary-dark-color);
+}
+
+.btn--big {
+  padding: 23px 64px;
+
+  min-width: 426px;
+  min-height: 100px;
+
+  font-size: 36px;
+  line-height: calc(54 / 36);
+}
+
+.btn--sm {
+  padding: 16px 63px;
+
+  min-width: 230px;
+  min-height: 60px;
+
+  font-size: 18px;
+  line-height: calc(27 / 18);
+}
