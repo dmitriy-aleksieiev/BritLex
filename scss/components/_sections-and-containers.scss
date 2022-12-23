@@ -17,8 +17,15 @@
   padding-bottom: 90px;
 }
 
-.hero__container {
+.hero__container,
+.about__container,
+.praicing__container,
+.footer__container {
   display: flex;
+}
+
+.footer__container {
+  align-items: center;
 }
 
 .left-side {
