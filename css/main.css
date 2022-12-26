@@ -199,6 +199,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
+  padding: 20px 0;
+  cursor: pointer;
 }
 
 .pricing__list {
@@ -298,7 +300,7 @@ img {
 }
 
 .container {
-  width: 1338px;
+  width: 1378px;
   padding: 0 20px;
   margin: 0 auto;
   outline: 1px lightblue solid;
