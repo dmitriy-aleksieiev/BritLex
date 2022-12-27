@@ -203,6 +203,14 @@ img {
   cursor: pointer;
 }
 
+.hero__left-side {
+  width: 540px;
+}
+
+.hero__right-side {
+  margin-left: auto;
+}
+
 .pricing__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,8 +331,4 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.left-side {
-  width: 540px;
 }/*# sourceMappingURL=main.css.map */
