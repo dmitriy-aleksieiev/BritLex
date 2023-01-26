@@ -1,7 +1,14 @@
 .hero__left-side {
   width: 540px;
+  position: relative;
 }
 
 .hero__right-side {
   margin-left: auto;
+}
+
+.bulb-icon {
+  position: absolute;
+  top: 95px;
+  left: 400px;
 }
