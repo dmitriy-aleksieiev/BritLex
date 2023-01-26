@@ -256,6 +256,51 @@ img {
   gap: 80px;
 }
 
+.skills__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.skills__list__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skills__item {
+  width: 426px;
+  background-color: var(--primary-background-color);
+  border-radius: 10px;
+  padding: 32px 18px;
+}
+
+.skills__item--speaking {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.skills__item--listening {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.skills__dscr {
+  max-width: 360px;
+}
+
+.skills__item--listening--container {
+  margin-right: auto;
+}
+
 .btn {
   /* Позиционирование */
   /* Блочная модель */
